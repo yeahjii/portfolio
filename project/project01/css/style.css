@@ -74,6 +74,7 @@ html{ height: 100%;}
 .top {text-align: center; background-color: #EFD6D6; height: 100%}
 .top p {display: inline; margin: 10px;}
 #role {margin-top: 80px;}
+#role p:first-child {font-weight: bold;}
 #topmockup img {width: 60%;} 
 h1 {font-size: 1.65em; margin: 50px}
 h2 {font-size: 1.1em; margin: 30 30 15 30;  line-height: 1.6em;}

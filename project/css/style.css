@@ -83,22 +83,15 @@ html{ height: 100%;}
 
 .image {display: block; width:420px; height: 449px; text-align: center;}
 .image img {margin-top: 150px;}
+.hoverimg img {top:0px }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
+.overlay {  position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+  height: 100%; width: 100%; opacity: 0; transition: .5s ease;
 }
 
 .container:hover .overlay { opacity: 1;}
 
-.overimg {position: absolute;  width:420px;}
+.overimg {position: absolute;  width:100%;}
 .overimg2 {bottom: 0; left: 0; right: 0; height: 100%; width: 100%; position: absolute; }
 
 
