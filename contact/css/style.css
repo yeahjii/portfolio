@@ -1,0 +1,202 @@
+/*초기화*/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    html{ height: 100%;}
+    body {
+        line-height: 1; height: 100%;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+
+
+#menu { position: fixed; width:19%; float:left;}
+#logo img { margin: 50px 0 0 50px;}
+#list {margin: 80px 0 0 50px; }
+#list ul li {display: block; margin: 15px;}
+#list ul li a { text-decoration: none; color:black;}
+#list ul li:last-child {font-weight: bold;}
+
+.list1 {overflow: hidden;}
+.list1 a { float: left; display: block; padding: 10px 10px 5px 10px;
+    font-size: 1.4em ; border-bottom: 1px solid transparent;}
+.list1 a:hover {font-weight: bold;}
+.list1 a.active {font-weight: bold;}
+
+.projectFilter {width:40px; height: 155px; padding: 0px 0px 5px 40px;}
+.projectFilter a { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
+
+.projectFilter a:hover { top:-10px; border-bottom: 1px solid #00a29a; }
+
+.projectContainer {float:right; width:81%; height: 100%; background: url(../img/bgimg.jpg) no-repeat right top; background-size: cover; }
+
+
+
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+form {
+  width: 400px;
+  margin: 120px auto;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  background: none;
+  color: #a7a9ac;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 400px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c6c6c6;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input:focus ~ label, input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #00a79d;
+}
+input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 400px;
+}
+
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+label {
+  color: #c6c6c6;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: 400px;
+}
+.bar:before {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: #c6c6c6;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+  left: 0%;
+}
+
+.btn {
+  background: #fff;
+  color: #959595;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.btn:hover {
+  color: #8b8b8b;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
+}
+.btn.btn-link {
+  background: #00a79d;
+  color: #d3eafd;
+}
+.btn.btn-link:hover {
+  background: #00a79d;
+  color: #deeffd;
+}
+.btn.btn-submit {
+  background: #00a79d;
+  color: #bce0fb;
+}
+.btn.btn-submit:hover {
+  background: #00a79d;
+  color: #deeffd;
+}
+.btn.btn-cancel {
+  background: #eee;
+}
+.btn.btn-cancel:hover {
+  background: #e1e1e1;
+  color: #8b8b8b;
+}
+
+.btn-box {
+  text-align: center;
+  margin: 50px 0;
+}
+
