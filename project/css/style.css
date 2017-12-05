@@ -70,7 +70,7 @@ html{ height: 100%;}
 
 .projectContainer {float:right; width:81%}
 .projectContainer > div {float: left; height:630px; }
-.projectContainer div:first-child .container {width:449px; background-color: #EFD6D6;}
+.projectContainer div:first-child .container {width:420px; background-color: #EFD6D6;}
 .projectContainer div:nth-child(2) .container  {background-color: #EDEDEE;}
 .projectContainer div:nth-child(3) .container  {background-color: #FBD3C6;}
 .projectContainer div:nth-child(4) .container  {background-color: #9FCDEE;}
@@ -79,9 +79,9 @@ html{ height: 100%;}
 .projectContainer div:nth-child(7) .container  {background-color: ghostwhite;}
 .projectContainer div:nth-child(7) .container  {background-color: ghostwhite;}
 
-.container {position: relative; width:449px; height:449px;}
+.container {position: relative; width:420px; height:420px;}
 
-.image {display: block; width:449px; height: 449px; text-align: center;}
+.image {display: block; width:420px; height: 449px; text-align: center;}
 .image img {margin-top: 150px;}
 
 .overlay {
@@ -98,8 +98,8 @@ html{ height: 100%;}
 
 .container:hover .overlay { opacity: 1;}
 
-.overimg {position: absolute;  width:449px;}
-.overimg2 {top: -10;  bottom: 0; left: 0; right: 0; height: 100%; width: 100%; position: absolute; }
+.overimg {position: absolute;  width:420px;}
+.overimg2 {bottom: 0; left: 0; right: 0; height: 100%; width: 100%; position: absolute; }
 
 
 .projectExplane {} 
