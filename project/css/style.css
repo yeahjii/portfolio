@@ -83,7 +83,6 @@ html{ height: 100%;}
 
 .image {display: block; width:420px; height: 449px; text-align: center;}
 .image img {margin-top: 150px;}
-.hoverimg img {top:0px }
 
 .overlay {  position: absolute; top: 0; bottom: 0; left: 0; right: 0;
   height: 100%; width: 100%; opacity: 0; transition: .5s ease;
@@ -98,3 +97,60 @@ html{ height: 100%;}
 .projectExplane {} 
 .tag {display: block; margin: 30px 0px 20px 20px; color: gray}
 .projectName {text-decoration: none; margin:20px; font-size: 1.5em;}
+
+
+
+
+input[type="radio"] {
+    display:none;
+}
+
+label { float: left; padding: 7.5px 0px; text-decoration: none; color:black; border-bottom: 1px solid transparent; position: absolute;}
+input[type="radio"][id="blue"]:checked + label {
+  background:#6666ff;
+}
+input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="red"]:checked + label {
+  background:#ff4466;
+}
+input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="green"]:checked + label {
+  background:#66dd99;
+}
+input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+.tile {
+  width:23%;
+  height:100px;
+  float:left;
+  transition:all 1s;
+  margin:0.5%;
+  padding:0.5%;
+}
+.green {
+  background:#66dd99;
+}
+.blue {
+  background:#6666ff;
+}
+.red {
+  background:#ff4466;
+}
