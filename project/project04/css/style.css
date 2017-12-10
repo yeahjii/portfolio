@@ -1,0 +1,107 @@
+/*초기화*/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+html{ height: 100%;}
+    body {
+        line-height: 1; height: 100%;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+
+
+#menu { position: fixed; width:19%; float:left;}
+#logo img { margin: 50px 0 0 50px;}
+#list {margin: 80px 0 0 50px; }
+#list ul li {display: block; margin: 15px;}
+#list ul li a { text-decoration: none; color:black;}
+
+
+.list1 {overflow: hidden;}
+.list1 a { float: left; display: block; padding: 10px 10px 5px 10px;
+    font-size: 1.4em ; border-bottom: 1px solid transparent;}
+.list1 a:hover {font-weight: bold;}
+.list1 a.active {font-weight: bold;}
+#list ul li:nth-child(2) {font-weight: bold;}
+
+.projectFilter {width:40px; height: 155px; padding: 0px 0px 5px 40px;}
+.projectFilter a { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
+
+.projectFilter a:hover { top:-10px; border-bottom: 1px solid #00a29a; }
+.projectFilter a.active { top:-10px; border-bottom: 1px solid #00a29a;}
+
+.projectContainer {float:right; width:81%}
+
+#toplogo img {margin-top: 120px;}
+.top {text-align: center; background-color: #9FCDEE; height: 100%}
+.top p {display: inline; margin: 10px;}
+#role {margin-top: 80px;}
+#role p:first-child {font-weight: bold;}
+#topmockup img {width: 60%;} 
+h1 {font-size: 1.65em; margin: 50px}
+h2 {font-size: 1.1em; margin: 30 30 15 30;  line-height: 1.6em;}
+
+.con {margin-top: 450px; width:80%; height: 90%; margin-left: 10%;}
+.con div {margin-bottom: 50px;}
+
+.con1 {width:100%; height:25%; }
+.con1 div {width:33.333%; float: left;  }
+.con2 {width:66.666%;float: right;  height:25% }
+.con2 p {font-size: 1.5em;}
+.con3, .con4 {width:100%;  height:40%; float:left; }
+.con3 img {float: left; margin-left: 150px;}
+.con3 p {float: left; margin: 40 0 0 200;}
+
+.color {margin:50 0 0 100; float: left;}
+.color div {float: left; margin: 5px;}
+#color01 { width:50px; height: 50px; background-color: #F1F1F2}
+#color02 { width:50px; height: 50px; background-color: #1B75BB}
+#color03 { width:50px; height: 50px; background-color: #FFF100}
+.con4 p {float: left; margin: 40 0 0 160;}
+.con7, .con6, .con5 { width:100%; float: left;}
+.con7 p, .con6 p, .con5 p {text-align: center; margin: 70 0 ;}
+.con7 p img {width: 95%; margin-top: -200px;}
+
+.tit {font-size: 1.3em;  border-bottom: 0.5px solid #323132; padding-bottom: 15px;
+ }
+.sub {margin-left: 30px; line-height: 1.6em;}
+
+
