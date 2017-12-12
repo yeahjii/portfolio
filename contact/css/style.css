@@ -44,17 +44,12 @@
         border-collapse: collapse;
         border-spacing: 0;
     }
-
-
-
-
-
 #menu { position: fixed; width:19%; float:left;}
 #logo img { margin: 50px 0 0 50px;}
 #list {margin: 80px 0 0 50px; }
 #list ul li {display: block; margin: 15px;}
 #list ul li a { text-decoration: none; color:black;}
-#list ul li:last-child {font-weight: bold;}
+#list>ul>li:last-child {font-weight: bold;}
 
 .list1 {overflow: hidden;}
 .list1 a { float: left; display: block; padding: 10px 10px 5px 10px;
@@ -62,14 +57,16 @@
 .list1 a:hover {font-weight: bold;}
 .list1 a.active {font-weight: bold;}
 
-.projectFilter {width:40px; height: 155px; padding: 0px 0px 5px 40px;}
-.projectFilter a { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
+#filters {width:40px; height: 155px; padding: 0px 0px 5px 35px;}
+#filters span { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
 
 .projectFilter a:hover { top:-10px; border-bottom: 1px solid #00a29a; }
 
-.projectContainer {float:right; width:81%; height: 100%; background: url(../img/bgimg.jpg) no-repeat right top; background-size: cover; }
 
 
+
+
+.projectContainer {float:right; width:81%; height: 100%; background: url(../img/bgimg.jpg) no-repeat right top; background-size: cover;}
 
 
 *,
@@ -80,7 +77,7 @@
 
 form {
   width: 400px;
-  margin: 120px auto;
+  margin: 200px auto;
 }
 
 .group {
@@ -102,7 +99,7 @@ textarea {
   width: 400px;
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #c6c6c6;
+  border-bottom: 1px solid gray;
 }
 input:focus,
 textarea:focus {
@@ -120,12 +117,9 @@ textarea:focus ~ .bar:before {
   width: 400px;
 }
 
-input[type="password"] {
-  letter-spacing: 0.3em;
-}
 
 label {
-  color: #c6c6c6;
+  color: gray;
   font-size: 16px;
   font-weight: normal;
   position: absolute;
@@ -147,7 +141,7 @@ label {
   width: 0;
   bottom: 0px;
   position: absolute;
-  background: #c6c6c6;
+  background: gray;
   -webkit-transition: 300ms ease all;
   transition: 300ms ease all;
   left: 0%;

@@ -14,17 +14,16 @@
                 <ul>
                     <li class="list1"><a href="../about/index.html">About</a></li>
                     <li class="list1"><a href="../project/index.html">Project</a></li>
-                        <div class="projectFilter">
-                            <a href="#" data-filter="*" class="current";>All</a>
-                            <a href="#" data-filter=".web" class="web";>Web</a>
-                            <a href="#" data-filter=".app" class="app";>App</a>
-                            <a href="#" data-filter=".branding" class="branding";>Branding</a>
-                            <a href="#" data-filter=".advertise" class="ect";>Advertise</a>
-                        </div>
-                    <li class="list1"><a href="../contact/index.html">Contact</a></li>         
+                        <ul id="filters" class="clearfix">
+						   <li><span class="filter active" data-filter=".web, .app, .branding, .advertise">All</span></li>
+                           <li><span class="filter" data-filter=".web">Web</span></li>
+                            <li><span class="filter" data-filter=".app">App</span></li>
+                           <li><span class="filter" data-filter=".branding">Branding</span></li>
+							<li><span class="filter" data-filter=".advertise">Advertise</span></li>             
+                        </ul>     
+					<li class="list1"><a href="../contact/index.html">Contact</a></li>
                 </ul>
-            </div>
-        </div>
+            </div>        </div>
 
         <div class="projectContainer">
             <div id="container">
@@ -47,7 +46,6 @@
                     </div>
                   </form>
                 </div>                
-                
             </div>
         </div>
             

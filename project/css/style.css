@@ -47,26 +47,28 @@ html{ height: 100%;}
 #menu { position: fixed; width:19%; float:left;}
 #logo img { margin: 50px 0 0 50px;}
 #list {margin: 80px 0 0 50px; }
-#list ul li {display: block; }
-#list ul li a { text-decoration: none; color:black; margin: 15px;}
+#list ul li {display: block; margin: 15px;}
+#list ul li a { text-decoration: none; color:black;}
+#list>ul>li:nth-child(2) {font-weight: bold;}
+
 .list1 {overflow: hidden;}
 .list1 a { float: left; display: block; padding: 10px 10px 5px 10px;
     font-size: 1.4em ; border-bottom: 1px solid transparent;}
 .list1 a:hover {font-weight: bold;}
-#list>ul>li:nth-child(2) {font-weight: bold;}
+.list1 a.active {font-weight: bold;}
 
-#filters {width:70px; height: 155px; padding: 0px 0px 5px 40px;list-style:none;}
-#filters li {float:left;}
-#filters li span { float: left; text-decoration: none; display: block; border-bottom: 2px solid transparent; margin: 7px;}
-#filters li span:hover { border-bottom: 1px solid #00a29a; }
-#filters li span.active { border-bottom: 1px solid #00a29a;}
+#filters {width:40px; height: 155px; padding: 0px 0px 5px 35px;}
+#filters span { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
+
+#filters span:hover { top:-10px; border-bottom: 2px solid #00a29a; }
+
 
 
 
 /*내용*/
 
 .projectContainer {float:right; width:81%}
-.projectContainer > div {float: left; height:700px; }
+.projectContainer>div {float: left; height:70%; }
 
 .projectContainer>div:first-child>div:first-child { background-color: #EFD6D6;}
 .projectContainer>div:nth-child(2)>div:first-child {background-color: #EDEDEE;}
@@ -75,19 +77,15 @@ html{ height: 100%;}
 .projectContainer>div:nth-child(5)>div:first-child {background-color: #FCEDDB;}
 .projectContainer>div:nth-child(6)>div:first-child  {background-color: #E6E7E8;}
 
-.projectContainer>div>div:first-child  {position: relative; width:100%; height:70%;}
-.projectContainer > div > div:hover .overlay { opacity: 1;}
+.portfolio-wrapper {position: relative; width:100%; height:75%;}
+.portfolio-wrapper:hover .overlay { opacity: 1;}
 
 .image {display: block; width:100%; height:100%; text-align: center;padding-top: 150px;}
-
-.overlay {  position: absolute; top: 0; bottom: 0; left: 0; right: 0;
-  height: 100%; width: 100%; opacity: 0; transition: .5s ease;
+.overlay {  position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; opacity: 0; transition: .5s ease;
 }
 
-
-.overimg {position: absolute;  width:100%;}
+.overimg {position: absolute;  width:100%; }
 .overimg2 {top:-10; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; position: absolute; }
-
 
 .tag {display: block; margin: 30px 0px 20px 20px; color: gray}
 .projectName {text-decoration: none; margin:20px; font-size: 1.5em;}

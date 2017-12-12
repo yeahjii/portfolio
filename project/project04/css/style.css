@@ -60,14 +60,13 @@ html{ height: 100%;}
     font-size: 1.4em ; border-bottom: 1px solid transparent;}
 .list1 a:hover {font-weight: bold;}
 .list1 a.active {font-weight: bold;}
-#list ul li:nth-child(2) {font-weight: bold;}
+#list>ul>li:nth-child(2) {font-weight: bold;}
+#list>ul li:nth-child(3) {font-weight: bold;}
 
-.projectFilter {width:40px; height: 155px; padding: 0px 0px 5px 40px;}
-.projectFilter a { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
+#filters {width:40px; height: 155px; padding: 0px 0px 5px 35px;}
+#filters span { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
 
-.projectFilter a:hover { top:-10px; border-bottom: 1px solid #00a29a; }
-.projectFilter a.active { top:-10px; border-bottom: 1px solid #00a29a;}
-
+#filters span:hover { top:-10px; border-bottom: 2px solid #00a29a; }
 .projectContainer {float:right; width:81%}
 
 #toplogo img {margin-top: 120px;}
