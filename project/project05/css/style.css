@@ -82,7 +82,7 @@ h2 {font-size: 1.1em; margin: 30 30 15 30;  line-height: 1.6em;}
 .con {margin-top: 100px; width:80%; height: 100%; margin-left: 10%;}
 .con div {margin-bottom: 50px;}
 
-.con4 {width: 100%; height: 60%;}
+.con4 {width: 100%; height: 80%;}
 .con1 {width:100%; height:25%; }
 .con1 div {width:33.333%; float: left; margin: 50PX 0PX;  }
 .con2 {width:66.666%;float: right;  height:25% }
@@ -90,9 +90,9 @@ h2 {font-size: 1.1em; margin: 30 30 15 30;  line-height: 1.6em;}
 .con5 { width:100%; float: left; margin-top: 50px;}
 .con5 p {text-align: center; margin: 70 0 ;}
 .con4 { float: left; width: 100%; height: 30%;}
-.circle { float: left;  width: 250px; margin:30px 70px;
-  height: 250px; background: #FCEDDB;border-radius: 150px;}    
-.circle p {text-align: center; margin-top: 110; font-size: 1.5em}
+.circle { float: left;  width: 20%; margin:3% 6%;
+  height: 85%; background: #FCEDDB;border-radius: 300%}    
+.circle p {text-align: center; margin-top: 45%; font-size: 1.5em}
 
 .tit {font-size: 1.3em;  border-bottom: 0.5px solid #323132; padding-bottom: 15px;
  }
