@@ -44,6 +44,7 @@
         border-collapse: collapse;
         border-spacing: 0;
     }
+
 #menu { position: fixed; width:19%; float:left;}
 #logo img { margin: 50px 0 0 50px;}
 #list {margin: 80px 0 0 50px; }
@@ -61,9 +62,6 @@
 #filters span { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
 
 .projectFilter a:hover { top:-10px; border-bottom: 1px solid #00a29a; }
-
-
-
 
 
 .projectContainer {float:right; width:81%; height: 100%; background: url(../img/bgimg.jpg) no-repeat right top; background-size: cover;}
@@ -165,14 +163,7 @@ label {
   color: #8b8b8b;
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.18), 0 5px 5px rgba(0, 0, 0, 0.12);
 }
-.btn.btn-link {
-  background: #00a79d;
-  color: #d3eafd;
-}
-.btn.btn-link:hover {
-  background: #00a79d;
-  color: #deeffd;
-}
+
 .btn.btn-submit {
   background: #00a79d;
   color: #bce0fb;
@@ -180,13 +171,6 @@ label {
 .btn.btn-submit:hover {
   background: #00a79d;
   color: #deeffd;
-}
-.btn.btn-cancel {
-  background: #eee;
-}
-.btn.btn-cancel:hover {
-  background: #e1e1e1;
-  color: #8b8b8b;
 }
 
 .btn-box {
