@@ -27,8 +27,7 @@
     }
 html{ height: 100%;}
     body {
-        line-height: 1; height: 100%;
-    }
+        line-height: 1; height: 100%; font-family: 'Lato', sans-serif; }
     ol, ul {
         list-style: none;
     }
