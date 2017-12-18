@@ -57,7 +57,7 @@
 .list1 a:hover {font-weight: bold;}
 .list1 a.active {font-weight: bold;}
 
-#filters {width:40px; height: 155px; padding: 0px 0px 5px 35px;}
+#filters {display: none; width:40px; height: 155px; padding: 0px 0px 5px 35px;}
 #filters span { float: left; padding: 7.5px 0px; text-decoration: none; color:black; display: block; border-bottom: 1px solid transparent;}
 
 #filters span:hover { top:-10px; border-bottom: 2px solid #00a29a; }
